@@ -18,7 +18,7 @@
 
 ### 查找想查看中文参考文本的法令
 * 在页面中快速搜索以查找法令
-使用Ctrl+F（Windows, Linux）或⌘Command+F（Macintosh）来在页面中查找你想要的内容。
+使用Ctrl+F（Windows, Linux）或⌘Command+F（Macintosh）来在页面中查找你想要的内容。  
 * 按照我们预先提供的五种分类方式以查找法令
    * 中文拼音顺序
    * 日语五十音图顺序
