@@ -4,8 +4,8 @@
 
 ## 简介
 本网站是日本国法令的中文译文页面（非官方）。  
-* 要查看日语原文的法令，请访问[e-Gov法令検索](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0100/)；
-* 要查看法令的英语译文，请访问[日本法令外国語訳データベースシステム](http://www.japaneselawtranslation.go.jp/law/?re=01)。
+* 要查看日语原文的法令，请访问[e-Gov法令検索](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0100/)（e-Gov法令检索）；
+* 要查看法令的英语译文，请访问[日本法令外国語訳データベースシステム](http://www.japaneselawtranslation.go.jp/law/?re=01)（日本法令外语翻译数据库系统）。
 
 ## 版权与免责声明
 本网站提供的翻译仅供参考，并非官方翻译文本，且可能未反映法令的最新修改。  
@@ -18,7 +18,7 @@
 
 ### 查找想查看中文参考文本的法令
 * 在页面中快速搜索以查找法令
-使用Ctrl+F（Windows, Linux）或⌘Command+F（Macintosh）来在页面中查找你想要的内容。  
+   * 使用Ctrl+F（Windows, Linux）或⌘Command+F（Macintosh）来在页面中查找你想要的内容。
 * 按照我们预先提供的五种分类方式以查找法令
    * 中文拼音顺序
    * 日语五十音图顺序
