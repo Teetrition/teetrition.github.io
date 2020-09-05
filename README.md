@@ -18,8 +18,8 @@ A website providing unofficial Chinese translation of Japanese laws.
 网站[https://teetrition.github.io/](https://teetrition.github.io/)下的全部文字在[知识共享 署名-相同方式共享 3.0协议](https://creativecommons.org/licenses/by-sa/3.0/deed.zh)之条款下提供，附加条款亦可能应用。
 
 ## 使用说明
-访问[https://teetrition.github.io/](https://teetrition.github.io/)即可使用本站提供的日本国法令中文参考服务。
-除链接文本外，在日本年号纪年上鼠标悬停可见其对应公历纪年。  
+访问[https://teetrition.github.io/](https://teetrition.github.io/)即可使用本站提供的日本国法令中文参考服务。  
+除链接文本外，在日本年号纪年上鼠标悬停可见其对应公历纪年。
 
 ### 查找想查看中文参考文本的法令
 * 在页面中快速搜索以查找法令
