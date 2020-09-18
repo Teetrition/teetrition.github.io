@@ -1,17 +1,132 @@
-#copyright {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+/* General Setup */
+
+* {
+    box-sizing: border-box;
 }
 
-#index {
+html {
     font-size: 10px;
 }
 
+body {
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+
+/* Layout */
+
+header {
+    float: left;
+    width: 30%;
+}
+
+nav {
+    float: left;
+    width: 70%;
+}
+
+#six_laws {
+    float: left;
+    width: 20%;
+    margin: 0.8rem auto;
+}
+
+#main {
+    float: left;
+    width: 80%;
+}
+  
+footer {
+    clear: both;
+}
+
+header, section, nav, footer {
+    padding: 1.5rem;
+}
+
+.lawgroup {
+    margin: 0.8rem auto;
+}
+
+/* Text Format */
+
+th {
+    text-align: left;
+}
+
+#copyright {
+    font-size: 1rem;
+}
+
+#intro {
+    font-size: 1rem;
+}
+
+#index {
+    font-size: 1rem;
+}
+
 h2 {
-    font-size: 1em;
+    font-size: 2rem;
 }
 
 .law {
     text-indent: 1em;
-    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Item Icon */
+
+.abolished {
+    background-color: #5e170e;
+    border-radius: 5px;
+    padding: 0.2rem;
+    margin-left: 0.4rem;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.min {
+    background-color: #5f9ea0;
+    border-radius: 5px;
+    padding: 0.2rem;
+    margin-right: 0.4rem;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.kei {
+    background-color: #996600;
+    border-radius: 5px;
+    padding: 0.2rem;
+    margin-right: 0.4rem;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.sho {
+    background-color: #6495ed;
+    border-radius: 5px;
+    padding: 0.2rem;
+    margin-right: 0.4rem;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+/* Link Format */
+
+.law-list {
+    outline: none;
+    text-decoration: none;
+}
+
+.law-list:link, .law-list:visited {
+    color: #002874;
+}
+
+.law-list:hover {
+    border-bottom: 1px solid;
+}
+
+.law-list:active {
+    color: #690000;
 }

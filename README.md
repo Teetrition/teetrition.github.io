@@ -1,9 +1,9 @@
 # 日本国法令中文参考
-本网站提供日本国法令的非官方中文译文。  
-A website providing unofficial Chinese translation of Japanese laws.  
-日本国法令の中国語訳文（非公式）を掲載するサイトです。  
+本网站提供日本国法令和判例的非官方中文译文。  
+A website providing unofficial Chinese translation of Japanese laws and test cases.  
+日本国法令や判例の中国語訳文（非公式）を掲載するサイトです。  
 
-网站当前正在建设。本文档提及的一些内容可能未在网站中反映。  
+网站当前正在建设，**网页中的多数超链接可能不可用**，且本文档提及的一些内容可能未在网站中反映。  
 注意：要直接访问网站，请点击[https://teetrition.github.io/](https://teetrition.github.io/)。
 
 ## 简介
@@ -14,8 +14,8 @@ A website providing unofficial Chinese translation of Japanese laws.
 ## 版权与免责声明
 本网站提供的翻译仅供参考，并非官方翻译文本，且可能未反映法令的最新修改。  
 本网站提供的内容不具有法律效力。要在日本国内使用法令，请以日本国官报中登载的法律原文为准。  
-我们不对使用本网站提供的内容所造成的一切损失负责。  
-网站[https://teetrition.github.io/](https://teetrition.github.io/)下的全部文字在[知识共享 署名-相同方式共享 3.0协议](https://creativecommons.org/licenses/by-sa/3.0/deed.zh)之条款下提供，附加条款亦可能应用。
+本网站不对因使用本网站提供的所有信息而造成的损失承担损害赔偿责任。  
+网站中提供的法令均由网站作者翻译，您可以以署名的方式分享本网站中的内容，且该分享允许您的修改。
 
 ## 使用说明
 访问[https://teetrition.github.io/](https://teetrition.github.io/)即可使用本站提供的日本国法令中文参考服务。  
