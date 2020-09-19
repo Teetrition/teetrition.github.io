@@ -9,43 +9,64 @@ html {
 }
 
 body {
-    margin: 0 auto;
-    font-size: 1.6rem;
+    display: grid;
+    grid-template-rows: auto auto auto 1fr auto;
+    min-height: 100vh;
+    font-size: 1.6em;
+    background-color: #ffffff;
+    margin: auto 0;
 }
 
-/* Layout */
+@media (min-width: 40em) {
+    body {
+        grid-template-columns: 12em 1fr;
+        grid-template-rows: auto auto 1fr auto;
+    }
+
+    header {
+        grid-column: span 2;
+    }
+
+    aside {
+        grid-row: span 3;
+        border-right: 0.1rem solid #a7d7f9;
+    }
+}
+
+header, aside, section, footer {
+    padding: 1.5rem;
+}
 
 header {
-    float: left;
-    width: 30%;
+    background-color: #f6f6f6;
+    background-image: linear-gradient(#ffffff, #ffffff, #f6f6f6);
 }
 
 nav {
-    float: left;
-    width: 70%;
+    background-color: #f6f6f6;
+    border-bottom: 0.1rem solid #a7d7f9;
 }
 
-#six_laws {
-    float: left;
-    width: 20%;
-    margin: 0.8rem auto;
+aside {
+    background-color:#f6f6f6;
 }
 
-#main {
-    float: left;
-    width: 80%;
+section {
+    background-color: #ffffff;
 }
-  
+
 footer {
-    clear: both;
-}
-
-header, section, nav, footer {
-    padding: 1.5rem;
+    background-color: #ffffff;
+    border-top: 0.1rem solid #a7d7f9;
 }
 
 .lawgroup {
     margin: 0.8rem auto;
+}
+
+#six_laws {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
 }
 
 /* Text Format */
@@ -68,6 +89,10 @@ h2 {
 
 .law {
     text-indent: 1em;
+}
+
+.links-list {
+    display: inline;
 }
 
 /* Item Icon */
@@ -110,19 +135,19 @@ h2 {
 
 /* Link Format */
 
-.law-list {
+a {
     outline: none;
     text-decoration: none;
 }
 
-.law-list:link, .law-list:visited {
+a:link, a:visited {
     color: #002874;
 }
 
-.law-list:hover {
+a:hover {
     border-bottom: 1px solid;
 }
 
-.law-list:active {
+a:active {
     color: #690000;
 }
