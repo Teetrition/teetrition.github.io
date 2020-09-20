@@ -17,29 +17,14 @@ body {
     margin: auto 0;
 }
 
-@media (min-width: 40em) {
-    body {
-        grid-template-columns: 12em 1fr;
-        grid-template-rows: auto auto 1fr auto;
-    }
-
-    header {
-        grid-column: span 2;
-    }
-
-    aside {
-        grid-row: span 3;
-        border-right: 0.1rem solid #a7d7f9;
-    }
-}
-
-header, aside, section, footer {
+header, main, footer {
     padding: 1.5rem;
 }
 
 header {
     background-color: #f6f6f6;
-    background-image: linear-gradient(#ffffff, #ffffff, #f6f6f6);
+    background-image: linear-gradient(#ffffff 66%, #f6f6f6 100%);
+    border-bottom: 0.1rem solid #a7d7f9;
 }
 
 nav {
@@ -49,9 +34,11 @@ nav {
 
 aside {
     background-color:#f6f6f6;
+    border-bottom: 0.1rem solid #a7d7f9;
+    padding: 0;
 }
 
-section {
+main {
     background-color: #ffffff;
 }
 
@@ -64,9 +51,39 @@ footer {
     margin: 0.8rem auto;
 }
 
-#six_laws {
-    margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
+.content {
+    list-style: none;
+    display: inline;
+}
+
+h1 {
+    margin: 0.5rem auto;
+}
+
+@media (min-width: 40em) {
+    body {
+        grid-template-columns: 12em 1fr;
+        grid-template-rows: auto auto 1fr auto;
+    }
+
+    header {
+        grid-column: span 2;
+        border: none;
+    }
+
+    aside {
+        grid-row: span 3;
+        border-bottom: none;
+        background-image: linear-gradient(to bottom,rgba(167,215,249,0) -20%,#a7d7f9 100%);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 0.1rem 100%;
+    }
+
+    .content {
+        display: block;
+        list-style: none;
+    }
 }
 
 /* Text Format */
@@ -84,7 +101,7 @@ th {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .law {
@@ -95,10 +112,27 @@ h2 {
     display: inline;
 }
 
+.lawinfo {
+    font-size: 1.4rem;
+    border: 0.1rem solid #808080;
+    border-left: 1rem solid #008000;
+    background-color: #f6f6f6;
+    padding: 1rem;
+}
+
 /* Item Icon */
 
 .abolished {
     background-color: #5e170e;
+    border-radius: 5px;
+    padding: 0.2rem;
+    margin-left: 0.4rem;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.partial {
+    background-color: #147c3c;
     border-radius: 5px;
     padding: 0.2rem;
     margin-left: 0.4rem;
@@ -142,6 +176,10 @@ a {
 
 a:link, a:visited {
     color: #002874;
+}
+
+.working:link, .working:visited {
+    color: #690000;
 }
 
 a:hover {
