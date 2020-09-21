@@ -120,6 +120,15 @@ h2 {
     padding: 1rem;
 }
 
+.unpinfo {
+    font-size: 1.4rem;
+    border: 0.1rem solid #808080;
+    border-left: 1rem solid #7c4314;
+    background-color: #f6f6f6;
+    padding: 1rem;
+    margin: 0.5rem auto;
+}
+
 /* Item Icon */
 
 .abolished {
@@ -133,6 +142,15 @@ h2 {
 
 .partial {
     background-color: #147c3c;
+    border-radius: 5px;
+    padding: 0.2rem;
+    margin-left: 0.4rem;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.unp {
+    background-color: #7c4314;
     border-radius: 5px;
     padding: 0.2rem;
     margin-left: 0.4rem;
@@ -188,4 +206,10 @@ a:hover {
 
 a:active {
     color: #690000;
+}
+
+a[href*="http"] {
+    background: url('../images/external_link.png') no-repeat 100% 0;
+    background-size: 1rem 1rem;
+    padding-right: 1rem;
 }

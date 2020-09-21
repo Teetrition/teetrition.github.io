@@ -1,4 +1,5 @@
 # 日本国法令中文参考
+**本说明文档中的“本网站”和“网站”均指[https://teetrition.github.io/](https://teetrition.github.io/)**  
 本网站提供日本国法令和判例的非官方中文译文。  
 A website providing unofficial Chinese translation of Japanese laws and test cases.  
 日本国法令や判例の中国語訳文（非公式）を掲載するサイトです。  
@@ -12,10 +13,10 @@ A website providing unofficial Chinese translation of Japanese laws and test cas
 * 要查看法令的英语译文，请访问[日本法令外国語訳データベースシステム](http://www.japaneselawtranslation.go.jp/law/?re=01)（日本法令外语翻译数据库系统）。
 
 ## 版权与免责声明
-本网站提供的翻译仅供参考，并非官方翻译文本，且可能未反映法令的最新修改。  
-本网站提供的内容不具有法律效力。要在日本国内使用法令，请以日本国官报中登载的法律原文为准。  
-本网站不对因使用本网站提供的所有信息而造成的损失承担损害赔偿责任。  
-网站中提供的法令均由网站作者翻译，您可以以署名的方式分享本网站中的内容，且该分享允许您的修改。
+网站提供的翻译仅供参考，并非官方翻译文本，且可能未反映法令的最新修改。  
+网站提供的内容不具有法律效力。要在日本国内使用法令，请以日本国官报中登载的法律原文为准。  
+网站不对因使用本网站提供的所有信息而造成的损失承担损害赔偿责任。  
+除特别注明外，本网站下的所有内容采用[知识共享署名-相同方式共享 4.0 国际许可协议](http://creativecommons.org/licenses/by-sa/4.0/)进行许可。
 
 ## 使用说明
 访问[https://teetrition.github.io/](https://teetrition.github.io/)即可使用本站提供的日本国法令中文参考服务。  
@@ -44,7 +45,7 @@ A website providing unofficial Chinese translation of Japanese laws and test cas
 * 中国大陆的“项”等于日本国的“号”；
 * 中国大陆的“目”等于日本国使用イロハ序号对“号”继续细分。
 
-**本站将完全使用日本国的体系，并不会对这些用语进行转化（如将“第二项”称作“第二款”）。**
+**本站将完全使用日本国的体系，并不会对这些用语进行转化（如不会将“第二项”称作“第二款”）。**
 
 法令正文的“同条”“同项”“同号”等指的是该词前最近的一次条、项、号等的引用。
 
