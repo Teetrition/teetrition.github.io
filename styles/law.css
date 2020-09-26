@@ -1,0 +1,41 @@
+.jou p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.jou :first-child {
+    margin-top: 1.6rem;
+    margin-bottom: 0;
+}
+
+.jou :last-child {
+    margin-top: 0;
+    margin-bottom: 1.6rem;
+}
+
+.law {
+    text-indent: -1em;
+    padding: 0 1em;
+    line-height: 1.5;
+    font-size: 1.4rem;
+}
+
+.gist {
+    text-indent: 1em;
+    line-height: 1.5;
+    font-size: 1.4rem;
+}
+
+.gou {
+    line-height: 1.5;
+    font-size: 1.4rem;
+    text-indent: 1em;
+}
+
+.pd {
+    font-size: 1.4rem;
+    border: 0.1rem solid #808080;
+    border-left: 1rem solid #018ccc;
+    background-color: #f6f6f6;
+    padding: 1rem;
+}
