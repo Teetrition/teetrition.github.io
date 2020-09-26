@@ -29,7 +29,8 @@
 .gou {
     line-height: 1.5;
     font-size: 1.4rem;
-    text-indent: 1em;
+    text-indent: -1em;
+    padding: 0 2em;
 }
 
 .pd {
