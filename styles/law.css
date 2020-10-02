@@ -33,6 +33,12 @@
     padding: 0 2em;
 }
 
+.kt {
+    line-height: 1.5;
+    font-size: 1.4rem;
+    text-indent: 1em;
+}
+
 .pd {
     font-size: 1.4rem;
     border: 0.1rem solid #808080;

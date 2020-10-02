@@ -209,3 +209,60 @@ a[href*="http"] {
     background-size: 1rem 1rem;
     padding-right: 1rem;
 }
+
+/* Table Format */
+
+.notable {
+    margin-top: 1rem;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 0.1rem solid #808080;
+    font-size: 1.4rem;
+}
+
+.notable thead th:nth-child(1) {
+    width: 5%;
+    text-align: center;
+}
+  
+.notable thead th:nth-child(2) {
+    width: 50%;
+}
+  
+.notable thead th:nth-child(3) {
+    width: 15%;
+}
+  
+.notable thead th:nth-child(4) {
+    width: 10%;
+}
+
+.notable thead th:nth-child(5) {
+    width: 20%;
+}
+
+.notable th, .notable td {
+    border: 1px solid #bebebe;
+    padding: 5px;
+}
+
+.notable tr:nth-child(even) td {
+    background-color: #fafafa;
+}
+  
+.notable tr:nth-child(odd) td {
+    background-color: #f5f5f5;
+}
+
+.notable th {
+    background-color: #ebebeb;
+}
+
+.notable td:nth-child(1) {
+    text-align: center;
+} 
+
+.notable td:nth-child(1)[colspan="5"] {
+    text-align: left;
+}

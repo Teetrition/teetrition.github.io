@@ -24,7 +24,7 @@ A website providing unofficial Chinese translation of Japanese laws and test cas
 
 ### 查找想查看中文参考文本的法令
 * 在页面中快速搜索以查找法令
-   * 使用Ctrl+F（Windows, Linux）或⌘Command+F（Macintosh）来在页面中查找你想要的内容。
+   * 使用<kbd>Ctrl</kbd><kbd>F</kbd>（Windows, Linux）或<kbd>⌘Command</kbd><kbd>F</kbd>（Macintosh）来在页面中查找你想要的内容。
 * 在网站法令达到一定数量后，我们会提供6种分类方式以查找法令
    * 法律部门分类
    * 中文拼音顺序
