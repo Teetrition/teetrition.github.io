@@ -3,12 +3,12 @@
     margin-bottom: 0;
 }
 
-.jou :first-child {
+.jou p:first-child {
     margin-top: 1.6rem;
     margin-bottom: 0;
 }
 
-.jou :last-child {
+.jou p:last-child {
     margin-top: 0;
     margin-bottom: 1.6rem;
 }

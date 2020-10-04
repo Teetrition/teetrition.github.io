@@ -33,6 +33,7 @@ nav {
 }
 
 aside {
+    -webkit-text-size-adjust: none;
     background-color:#f6f6f6;
     border-bottom: 0.1rem solid #a7d7f9;
     padding: 0;
@@ -72,6 +73,7 @@ h1 {
     }
 
     aside {
+        -webkit-text-size-adjust: none;
         grid-row: span 3;
         border-bottom: none;
         background-image: linear-gradient(to bottom,rgba(167,215,249,0) -20%,#a7d7f9 100%);
