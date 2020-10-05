@@ -1,0 +1,137 @@
+/* General Setup */
+
+.IE {
+    font-size: 16px;
+    border: 1px solid #808080;
+    background-color: #f0e68c;
+    padding: 10px;
+    margin: 30px;
+    margin-top: 10px;
+}
+
+header, main, footer {
+    padding: 15px;
+}
+
+header {
+    border-bottom: 1px solid #a7d7f9;
+}
+
+nav {
+    border-bottom: 1px solid #a7d7f9;
+}
+
+aside {
+    border-bottom: 1px solid #a7d7f9;
+}
+
+footer {
+    border-top: 1px solid #a7d7f9;
+}
+
+.lawgroup {
+    margin: 8px 15px;
+}
+
+.content {
+    list-style: none;
+    display: inline;
+}
+
+h1 {
+    margin: 5px auto;
+}
+
+/* Text Format */
+
+th {
+    text-align: left;
+}
+
+#copyright {
+    font-size: 10px;
+}
+
+#intro {
+    font-size: 10px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.links-list {
+    display: inline;
+}
+
+.lawinfo {
+    font-size: 14px;
+    border: 1px solid #808080;
+    border-left: 10px solid #008000;
+    padding: 10px;
+}
+
+.unpinfo {
+    font-size: 14px;
+    border: 1px solid #808080;
+    border-left: 10px solid #7c4314;
+    padding: 10px;
+    margin: 5px auto;
+}
+
+/* Item Icon */
+
+.abolished {
+    padding: 2px;
+    margin-left: 4px;
+    font-size: 10px;
+}
+
+.partial {
+    padding: 2px;
+    margin-left: 4px;
+    font-size: 10px;
+}
+
+.unp {
+    padding: 2px;
+    margin-left: 4px;
+    font-size: 10px;
+}
+
+.min {
+    padding: 2px;
+    margin-right: 4px;
+    font-size: 10px;
+}
+
+.kei {
+    padding: 2px;
+    margin-right: 4px;
+    font-size: 10px;
+}
+
+.sho {
+    padding: 2px;
+    margin-right: 4px;
+    font-size: 10px;
+}
+
+/* Link Format */
+
+a:hover {
+    border-bottom: 1px solid;
+}
+
+a[href*="http"] {
+    background-size: 10px 10px;
+    padding-right: 10px;
+}
+
+/* Table Format */
+
+.notable {
+    margin-top: 10px;
+    border: 1px solid #808080;
+    font-size: 14px;
+}
