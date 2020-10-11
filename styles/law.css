@@ -46,3 +46,42 @@
     background-color: #f6f6f6;
     padding: 1rem;
 }
+
+.mokuji {
+    width: 90%;
+    border: 1px solid #808080;
+    background-color: #fdfdfd;
+    padding: 1.5rem;
+    padding-top: 0.5rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 40em) {
+    .mokuji {
+        width: 60%;
+    }
+}
+
+.hen {
+    font-size: 1.4rem;
+    text-indent: 1em;
+}
+
+.chap {
+    font-size: 1.4rem;
+    text-indent: 2em;
+    line-height: 1.3;
+}
+
+.hen-title {
+    font-size: 1.4rem;
+    text-indent: 2em;
+    margin: 0.5rem auto;
+}
+
+.chap-title {
+    font-size: 1.4rem;
+    text-indent: 3em;
+    margin: 0.5rem auto;
+}
