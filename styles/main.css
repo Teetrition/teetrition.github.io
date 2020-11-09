@@ -88,6 +88,32 @@ h1 {
     }
 }
 
+@media all and (orientation: portrait){
+    body {
+        grid-template-columns: none;
+        grid-template-rows: auto auto auto 1fr auto;
+        font-size: 1.5em;
+    }
+    
+    header {
+        grid-column: span 1;
+        border-bottom: 0.1rem solid #a7d7f9;
+    }
+    
+    aside {
+        -webkit-text-size-adjust: none;
+        grid-row: span 1;
+        background-image: none;
+        background-color:#f6f6f6;
+        border-bottom: 0.1rem solid #a7d7f9;
+    }
+    
+    .content {
+        display: inline;
+        list-style: none;
+    }
+} 
+
 /* Text Format */
 
 th {
@@ -95,11 +121,11 @@ th {
 }
 
 #copyright {
-    font-size: 1rem;
+    font-size: 0.5em;
 }
 
 #intro {
-    font-size: 1rem;
+    font-size: 0.5em;
 }
 
 h2 {
@@ -140,64 +166,64 @@ h2 {
 
 .abolished {
     background-color: #5e170e;
-    border-radius: 5px;
+    border-radius: 0.5em;
     padding: 0.2rem;
     margin-left: 0.4rem;
-    font-size: 1rem;
+    font-size: 0.7em;
     color: #ffffff;
 }
 
 .partial {
     background-color: #147c3c;
-    border-radius: 5px;
+    border-radius: 0.5em;
     padding: 0.2rem;
     margin-left: 0.4rem;
-    font-size: 1rem;
+    font-size: 0.7em;
     color: #ffffff;
 }
 
 .unp {
     background-color: #7c4314;
-    border-radius: 5px;
+    border-radius: 0.5em;
     padding: 0.2rem;
     margin-left: 0.4rem;
-    font-size: 1rem;
+    font-size: 0.7em;
     color: #ffffff;
 }
 
 .editing {
     background-color: #14567c;
-    border-radius: 5px;
+    border-radius: 0.5em;
     padding: 0.2rem;
     margin-left: 0.4rem;
-    font-size: 1rem;
+    font-size: 0.7em;
     color: #ffffff;
 }
 
 .min {
     background-color: #5f9ea0;
-    border-radius: 5px;
+    border-radius: 0.5em;
     padding: 0.2rem;
     margin-right: 0.4rem;
-    font-size: 1rem;
+    font-size: 0.7em;
     color: #ffffff;
 }
 
 .kei {
     background-color: #996600;
-    border-radius: 5px;
+    border-radius: 0.5em;
     padding: 0.2rem;
     margin-right: 0.4rem;
-    font-size: 1rem;
+    font-size: 0.7em;
     color: #ffffff;
 }
 
 .sho {
     background-color: #6495ed;
-    border-radius: 5px;
+    border-radius: 0.5em;
     padding: 0.2rem;
     margin-right: 0.4rem;
-    font-size: 1rem;
+    font-size: 0.7em;
     color: #ffffff;
 }
 
@@ -264,7 +290,7 @@ a[href*="http"] {
 
 .notable th, .notable td {
     border: 1px solid #bebebe;
-    padding: 5px;
+    padding: 0.5em;
 }
 
 .notable tr:nth-child(even) td {
