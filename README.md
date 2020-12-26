@@ -1,11 +1,12 @@
 # 日本国法令中文参考
-**本说明文档中的“本网站”和“网站”均指[https://teetrition.github.io/](https://teetrition.github.io/)**  
+**本说明文档中的“本网站”和“网站”均指[https://teetrition.top/](https://teetrition.top/)**  
+**本仓库对应的[Github Pages页面](https://teetrition.github.io/)目前暂停了更新，将在以后作测试网页样式之用，请以[https://teetrition.top/](https://teetrition.top/)的内容为准。**  
 本网站提供日本国法令和判例的非官方中文译文。  
 A website providing unofficial Chinese translation of Japanese laws and test cases.  
 日本国法令や判例の中国語訳文（非公式）を掲載するサイトです。  
 
 网站当前正在建设，**网页中的多数超链接可能不可用**，且本文档提及的一些内容可能未在网站中反映。  
-注意：要直接访问网站，请点击[https://teetrition.github.io/](https://teetrition.github.io/)。
+注意：要直接访问网站，请点击[https://teetrition.top/](https://teetrition.top/)。
 
 ## 简介
 本网站是日本国法令的中文译文页面（非官方）。  
@@ -19,7 +20,7 @@ A website providing unofficial Chinese translation of Japanese laws and test cas
 除特别注明外，本网站下的所有内容采用[知识共享署名-相同方式共享 4.0 国际许可协议](http://creativecommons.org/licenses/by-sa/4.0/)进行许可。
 
 ## 使用说明
-访问[https://teetrition.github.io/](https://teetrition.github.io/)即可使用本站提供的日本国法令中文参考服务。  
+访问[https://teetrition.top/](https://teetrition.top/)即可使用本站提供的日本国法令中文参考服务。  
 除链接文本外，在日本年号纪年上鼠标悬停可见其对应公历纪年。
 
 ### 查找想查看中文参考文本的法令
@@ -51,4 +52,4 @@ A website providing unofficial Chinese translation of Japanese laws and test cas
 
 如：民法第20条第2项（限制行为能力人的相对人在限制行为能力人不是行为能力人的期间内，对其法定代理人、保佐人或辅助人就其权限内的行为作出**前项**规定的催告的情况下，前述人没有在**同项**内的期间内发出明确答复的，同**同项**后段的规定。），此处的“同项”指前文的“前项”，也即第20条第1项。  
 
-更多常见问题，请见[常见问题](https://teetrition.github.io/Q&A.html)。
+更多常见问题，请见[常见问题](https://teetrition.top/Q&A.html)。
