@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+/* --- General Setup --- */
+
+/* -- Frame -- */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
+    margin: auto 0;
+    font-size: 1.6em;
+    background-color: #F8F9FA;
+}
+
+main, footer, .side-bar {
+    padding: 1.5rem;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 14em 1fr;
+    grid-template-rows: 1fr;
+    padding: 1.2rem 1.5rem;
+    box-shadow: 0 .2rem .8rem #888888;
+    background-color: #3367D6;
+}
+
+footer {
+    background-color: #e3e6e7;
+}
+
+h1 {
+    margin: 0;
+    font-size: 90%;
+    font-weight: 400;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    position: relative;
+}
+
+nav ul {
+    position: absolute;
+    top: 25%;
+}
+
+.links-list {
+    display: inline;
+    margin: 0 1.5rem;
+}
+
+.wide {
+    display: none;
+}
+
+@media all and (min-width: 50em) {
+    body {
+        grid-template-columns: 15em 1fr;
+        grid-template-rows: auto 1fr auto;
+    }
+
+    header {
+        grid-column: span 2;
+    }
+
+    footer {
+        grid-column: span 2;
+    }
+
+    .wide {
+        display: inherit;
+    }
+}
+
+@media all and (orientation: portrait){
+    body {
+        grid-template-columns: none;
+        grid-template-rows: auto auto 1fr auto;
+    }
+
+    footer {
+        grid-column: span 1;
+    }
+
+    .wide {
+        display: none;
+    }
+} 
+
+/* -- Links -- */
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #3367D6;
+}
+
+.working:link, .working:visited {
+    color: #690000;
+}
+
+a:hover {
+    border-bottom: 1px solid;
+}
+
+a:active {
+    color: #690000;
+}
+
+a[href*="http"] {
+    background: url('../images/external_link.png') no-repeat 100% 0;
+    background-size: 1rem 1rem;
+    padding-right: 1rem;
+}
+
+a.non-third {
+    background: none;
+    background-size: 0;
+    padding-right: inherit;
+}
+
+header a:link, header a:visited, header a:active {
+    color: #FFF;
+}
+
+header a:hover {
+    border: none;
+}
+
+/* -- Icons -- */
+
+.icon {
+    border-radius: .3rem;
+    padding: .2rem;
+    margin-left: .5rem;
+    color: #FFF;
+    font-size: .5rem;
+    font-weight: 400;
+}
