@@ -10,7 +10,6 @@
 
 html {
     font-size: 10px;
-    font-family: sans-serif;
 }
 
 /* 交换Grid逻辑，适配IE11 */
@@ -107,9 +106,9 @@ a:active {
 }
 
 a[href*="http"] {
-    background: url('../images/external_link.svg') no-repeat 100% 0;
+    background: url('../images/external_link.png') no-repeat 100% 0;
     background-size: 1rem 1rem;
-    padding-right: 1.3rem;
+    padding-right: 1rem;
 }
 
 a.non-third {
