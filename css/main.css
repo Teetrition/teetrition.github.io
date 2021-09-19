@@ -12,8 +12,6 @@ html {
     font-size: 10px;
 }
 
-/* 交换Grid逻辑，适配IE11 */
-
 body {
     display: grid;
     grid-template-rows: auto auto 1fr auto;
@@ -29,8 +27,8 @@ main, footer, .side-bar {
 
 header {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 14em 1fr;
+    grid-template-rows: 1fr;
     padding: 1.2rem 1.5rem;
     box-shadow: 0 .2rem .8rem #888888;
     background-color: #3367D6;
@@ -55,13 +53,25 @@ li {
     list-style: none;
 }
 
-nav a {
-    display: block;
-    float: left;
-    padding: 1rem 1.5rem;
+nav {
+    position: relative;
 }
 
-@media all and (max-width: 50em), (orientation: portrait) {
+nav ul {
+    position: absolute;
+    top: 25%;
+}
+
+.links-list {
+    display: inline;
+    margin: 0 1.5rem;
+}
+
+.wide {
+    display: none;
+}
+
+@media all and (min-width: 50em) {
     body {
         grid-template-columns: 15em 1fr;
         grid-template-rows: auto 1fr auto;
@@ -69,15 +79,28 @@ nav a {
 
     header {
         grid-column: span 2;
-        grid-template-columns: 14em 1fr;
-        grid-template-rows: 1fr;
     }
 
     footer {
         grid-column: span 2;
     }
 
-    .side-bar {
+    .wide {
+        display: inherit;
+    }
+}
+
+@media all and (orientation: portrait){
+    body {
+        grid-template-columns: none;
+        grid-template-rows: auto auto 1fr auto;
+    }
+
+    footer {
+        grid-column: span 1;
+    }
+
+    .wide {
         display: none;
     }
 } 
