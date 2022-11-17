@@ -182,6 +182,7 @@ body>nav a:hover {
 main {
     display: block;
     max-width: 800px;
+    min-height: 80vh;
     margin: 0 auto;
     padding: 70px 30px 20px 30px;
 }
