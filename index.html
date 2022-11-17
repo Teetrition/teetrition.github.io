@@ -1,27 +1,79 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Description" content="本网站是提供日本国法令、判例和相关内容介绍的本文或非官方翻译文本的个人网站。">
-    <title>日本法律参考 - Teetrition</title>
-    <style>
-        body {
-            background-color: #f0f8ff;
-        }
-
-        .infobox {
-            margin: auto;
-            padding: 10px;
-            background-color: #fff;
-            border-radius: 5px;
-            text-align: center;
-        }
-    </style>
+    <meta name="Description" content="日本国法令、判例的翻译及法律随笔。">
+    <title>TeeLaw</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,600&family=Noto+Sans+JP&family=Noto+Sans+SC&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
-    <div class="infobox">
-        <p>本站（www.teetrition.top）正在进行维护，预计2022年11月3日24:00前将维护完毕。给您造成不便，敬请谅解。</p>
+    <header class="no-shadow">
+        <div class="header-main">
+            <a class="header-logo" href="index.html">
+                <span class="material-symbols-rounded header-logo-icon">
+                    waterfall_chart
+                </span>
+                <span class="header-logo-text">TeeLaw</span>
+            </a>
+            <nav>
+                <a href="act.html">法令</a>
+                <a href="case.html">判例</a>
+                <a href="essay.html">随笔</a>
+                <a href="help.html">帮助</a>
+            </nav>
+        </div>
+        <div class="header-switches">
+            <div class="header-switch" id="switch-widgets" onclick="widgets()">
+                <div class="material-symbols-rounded">widgets</div>
+            </div>
+            <div class="header-switch" id="switch-tune" onclick="tune()">
+                <div class="material-symbols-rounded">tune</div>
+            </div>
+        </div>
+    </header>
+    <nav class="nav-closed">
+        <a href="act.html">法令</a>
+        <a href="case.html">判例</a>
+        <a href="essay.html">随笔</a>
+        <a href="help.html">帮助</a>
+    </nav>
+    <main>
+        <p style="text-indent: 2em;">
+            网站新样式测试，敬请期待。
+        </p>
+    </main>
+    <footer>
+        <p id="obsolete"><span style="color: #a90000;">Internet Explorer 11已停止支持，它在功能和安全性上缺陷愈发明显。</span>TeeLaw推荐您由Internet Explorer 11<a href="microsoft-edge:https://www.teetrition.top/">切换到最新版Microsoft Edge。</a></p>
+        <p>除特别注明外，本网站提供的法令和判例翻译仅供参考，并非官方翻译文本。对于法令翻译，其可能未反映法令的最新修改。<br>在正式场合使用法令时，请与日本国官报中登载的法令原文核对并以其登载的文本为准。</p>
+        <p>除特别注明外，本网站下的文本内容著作权归TeeLaw所有，采用 <a href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0
+                国际许可协议</a> 进行许可。</p>
+        <p class="licenses"><a href="https://www.teetrition.top/agreement_20211120.html">免责声明与隐私政策</a>　<a
+                href="license.html">详细著作权信息</a>　<wbr><a href="https://beian.miit.gov.cn/"
+                style="white-space: nowrap;">蜀ICP备2020031629号-1</a>　<a
+                href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51068202000214"
+                style="white-space: nowrap;">川公网安备 51068202000214号</a></p>
+    </footer>
+    <div class="tune-panel-off" id="tune-panel">
+        <p class="tune-title">主题</p>
+        <p>这些设置只在当前浏览器生效。</p>
+        <dl>
+            <dt>深浅色</dt>
+            <dd>自动</dd>
+            <dd>浅色</dd>
+            <dd>深色</dd>
+        </dl>
     </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
